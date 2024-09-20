@@ -11,5 +11,6 @@ String url = "http://192.168.23.137:9000";
 	<suppress files="node[\\/].*" checks=".*"/>
 	<suppress files="build[\\/].*" checks=".*"/>
 	<suppress files="target[\\/].*" checks=".*"/>
-	<suppress files=".+\.(jar|git|ico|p12|gif|jks|jpg|svg|log)" checks="NoHttp"/>
+	<suppress files=".+\.(jar|git|ico|p12|gif|jks|jpg|svg|log)" checks="NoHttp"/>	
+    <suppress files=".*report-task.txt" checks="NoHttp"/>
 </suppressions>
