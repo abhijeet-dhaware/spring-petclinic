@@ -7,4 +7,7 @@
 	<module name="SuppressionFilter">
 		<property name="file" value="${config_loc}/nohttp-checkstyle-suppressions.xml"/>
 	</module>
+	<module name="NoHttp">
+    <property name="ignoreFile" value="true"/>
+   </module>
 </module>
