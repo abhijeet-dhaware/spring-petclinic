@@ -2,9 +2,6 @@
 <!DOCTYPE suppressions PUBLIC
 		"-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
 		"https://checkstyle.org/dtds/suppressions_1_2.dtd">
-// CHECKSTYLE:OFF
-String url = "http://192.168.23.137:9000";
-// CHECKSTYLE:ON
 
 <suppressions>
 	<suppress files="node_modules[\\/].*" checks=".*"/>
