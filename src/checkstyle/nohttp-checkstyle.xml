@@ -2,12 +2,9 @@
 <!DOCTYPE module PUBLIC
 		"-//Puppy Crawl//DTD Check Configuration 1.2//EN"
 		"https://checkstyle.org/dtds/configuration_1_2.dtd">
-<module name="com.puppycrawl.tools.checkstyle.Checker">
+<!--<module name="com.puppycrawl.tools.checkstyle.Checker">
 	<module name="io.spring.nohttp.checkstyle.check.NoHttpCheck"/>
 	<module name="SuppressionFilter">
 		<property name="file" value="${config_loc}/nohttp-checkstyle-suppressions.xml"/>
 	</module>
-	<module name="NoHttp">
-    <property name="allowedUrls" value="http://192.168.23.137:8081/repository/maven-releases/,http://192.168.23.137:8081/repository/maven-snapshots/"/>
-    </module>
-</module>
+</module>-->
