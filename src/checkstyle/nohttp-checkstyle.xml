@@ -7,4 +7,7 @@
 	<module name="SuppressionFilter">
 		<property name="file" value="${config_loc}/nohttp-checkstyle-suppressions.xml"/>
 	</module>
+	<module name="NoHttp">
+    <property name="allowedUrls" value="http://192.168.23.137:8081/repository/maven-releases/,http://192.168.23.137:8081/repository/maven-snapshots/"/>
+    </module>
 </module>
